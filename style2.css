@@ -1,0 +1,44 @@
+.style3{
+    background-color: brown;
+}
+.relative1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+    margin: 10px;
+  }
+  .main{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+  }
+  .container{
+    height: 40px;
+    width: 40px;
+    background-color: #73AD21;
+    position: absolute;
+  }
+  .con{
+    width: 100px;
+    height: 100px;
+    background-color: #73AD21;
+    margin: 20px;
+    padding: 20px;
+  }
+  .animation{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation: roh 2s normal 5s 3;
+  }
+  @keyframes roh {
+    0%{
+        width: 100px;
+    }
+    100%{
+        width: 200px;
+    }
+    
+  }
